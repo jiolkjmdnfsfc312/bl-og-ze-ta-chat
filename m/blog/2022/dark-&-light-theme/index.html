@@ -47,7 +47,32 @@
         <h1>Zetachat</h1>
       </a>
 
-      <div id="navbar" class="navbar"></div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="/"><span>Home</span></a></li>
+          <li><a href="/m/about/">About</a></li>
+          <li><a href="/m/features/">Features</a></li>
+          <li><a href="/m/gallery/">Gallery</a></li>
+          <li><a href="/m/blog/">Blog</a></li>
+          <li class="dropdown megamenu"><a href="javscript(0)"><span>Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+
+              <li>
+                <a href="/m/pricing/">Pricing</a>
+              </li>
+              <li>
+                <a href="/m/pricing/">Services</a>
+              </li>
+              <li>
+                <a href="/m/keamanan/">Keamanan</a>
+              </li>
+              
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="/m/contact/">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle d-none"></i>
+      </nav><!-- .navbar -->
 
       <a class="btn-getstarted scrollto" id="open-modal">Share</a>
 
@@ -266,7 +291,7 @@
 
       <div class="copy-link">
         <div class="copy-text">
-          <input type="text" class="text" value="https://fileshare.io/001-510-115" readonly>
+          <input type="text" class="text" value="https://www.blog-zetachat.my.id/m/blog/2022/dark-&-light-theme/" readonly>
           <button>
             <i class='bx bxs-copy'></i>
           </button>
@@ -292,11 +317,8 @@
 
   <!-- Zetachat Main JS File -->
   <script src="/assets/js/main.js"></script>
-  <script src="/assets/js/jquery.min.js"></script>
   <!-- Sosmed Main JS File -->
   <script src="/assets/js/default/sosmed/main.js"></script>
-  <!-- Menu Main JS File -->
-  <script src="/assets/js/default/navbar-menu/main.js"></script>
   <!-- Categories Main JS File -->
   <script src="/assets/js/default/categories/main.js"></script>
   <!-- Recent Posts Main JS File -->
